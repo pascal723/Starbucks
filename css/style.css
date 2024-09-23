@@ -69,3 +69,136 @@
     display: flex;
     flex-direction: column;
 }
+/* Gallery mobile */
+
+.gallery{
+    background: #006241;
+    padding: 25px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gallery__img{
+    width: 90%;
+    margin: 10px;
+}
+/* Formulario mobile */
+
+.contacto{
+    background:#141414;
+    padding: 40px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contacto__title{
+    color: #006241;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+.contacto__form{
+    background: #006241;
+    padding: 15px;
+    color: #ffffff;
+    width: 280px;
+}
+.contacto__label{
+    font-size: 18px;
+    padding: 8px;
+}
+.contacto__conteiner-coment,
+.contacto__coteiner-email{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.contacto__input::placeholder{
+    color: #006241;
+    font-size: 15px;
+}
+.contacto__conteiner-coment textarea,
+.contacto__coteiner-email input{
+    padding:5px;
+    border-radius: 8px;
+    border:0 ;
+}
+.contacto__input:focus{
+    background: #141414;
+}
+.contacto__boton{
+    background: inherit ;
+    border: 1px solid #ffffff;
+    color: #fff;
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 7px;
+    padding: 7px 0;
+    transition: all 1s;
+}
+.contacto__boton:hover{
+    background: #ffff00;
+    border: 1px solid  #ffff00;
+}
+/* Cards mobile */
+
+.cards__card{
+  background: #006241;
+  margin-top: 45px;
+  color: #ffffff;
+  position: relative;
+  width: 85%;
+}
+.cards{
+  padding:20px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cards__card-img{
+    width: 100%;
+}
+.cards__card-title span{
+    color: #ffff00;
+}
+.cards__conteiner-text{
+    padding: 25px 15px;
+}
+.cards__card-texto{
+    font-size: 14px;
+    margin: 7.5px 0;
+}
+.cards__card-button{
+    background:inherit;
+    border:2px solid #fff;
+    padding: 10px 20px;
+    width: 175px;
+    font-size: 13px;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.cards__card-button:hover {
+    background: #ffff00;
+    border: 2px solid  #ffff00;
+}
+.cards__card-desct{
+    background: #ff0;
+    border-radius: 50%;
+    color: #000;
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    position: absolute;
+    top: -25px;
+    right: -25px;
+}

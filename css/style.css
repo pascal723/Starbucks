@@ -44,3 +44,28 @@
     font-size: 30px;
     color:#ffffff;
  }
+ 
+ /* Main mobile */
+
+.main__conteiner-logo{
+    display: none;
+}
+.main{
+  margin-top: 85px;
+  padding: 15px 15px 60px;
+}
+.main__title{
+  font-size: 55px;
+  line-height: 1.2;
+}
+.main__title span {
+    color: #006241;
+}
+.main__description {
+    margin-top: 20px;
+    font-size: 21px;
+}
+.main__container-texto{
+    display: flex;
+    flex-direction: column;
+}
